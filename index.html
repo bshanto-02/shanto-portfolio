@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shamiul Islam Shanto | Graphic Designer, Developer &amp; Aspiring AI Engineer</title>
+<meta name="description" content="Shamiul Islam Shanto: Computer Science student, aspiring AI engineer, graphic designer, logo maker and web developer.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+
+<header class="nav">
+  <a href="#home" class="brand">SIS<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact" class="btn small">Hire me</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="tag">// AVAILABLE FOR JOBS &amp; FREELANCE</p>
+    <h1>Hi, I'm <span class="glow">Shamiul Islam Shanto</span></h1>
+    <h2>I am a <span id="typing"></span><span class="caret">|</span></h2>
+    <p>Computer Science student and aspiring AI engineer. I design memorable logos and brands, build clean responsive websites, and I'm learning Python and machine learning. Let's make something people remember.</p>
+    <div class="actions">
+      <a href="#work" class="btn">View my work</a>
+      <a href="#contact" class="btn ghost">Let's talk</a>
+    </div>
+  </div>
+  <div class="avatar">
+    <!-- Put your photo at image/profile.jpg -->
+    <img src="image/profile.jpg" alt="Shamiul Islam Shanto" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'avatar-fallback',textContent:'SIS'}))">
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <h3 class="title"><span>01</span> About me</h3>
+  <p class="lead">I'm Shamiul Islam Shanto, a Computer Science student and <b>aspiring AI engineer</b> who is also a graphic designer. My strongest creative skill is <b>logo making and brand identity</b>. I'm interested in machine learning, web development and software, I'm learning Python, and I practice problem solving on Codeforces.</p>
+  <div class="stats">
+    <div><b data-count="8">0</b><small>GitHub repositories</small></div>
+    <div><b data-count="36">0</b><small>Codeforces problems solved</small></div>
+    <div><b data-count="7">0</b><small>Day best solving streak</small></div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h3 class="title"><span>02</span> Skills</h3>
+
+  <h4>Graphic design (main expertise)</h4>
+  <div class="bars">
+    <div class="bar" data-v="95"><label>Logo design</label><i></i></div>
+    <div class="bar" data-v="90"><label>Brand identity</label><i></i></div>
+    <div class="bar" data-v="85"><label>Vector illustration</label><i></i></div>
+    <div class="bar" data-v="85"><label>Typography</label><i></i></div>
+    <div class="bar" data-v="80"><label>Social media design</label><i></i></div>
+  </div>
+  <div class="chips">
+    <span>Logo marks</span><span>Wordmarks</span><span>Monograms</span><span>Mascot logos</span><span>Color palettes</span><span>Brand guidelines</span><span>Business cards</span><span>Posters &amp; flyers</span><span>Banners</span><span>Icons</span><span>Mockups</span><span>Photo editing</span><span>Photo manipulation</span><span>Esports &amp; gaming logos</span><span>Glow &amp; lighting effects</span><span>Layout &amp; grids</span>
+  </div>
+
+  <h4>Design tools</h4>
+  <div class="chips">
+    <span>Figma</span><span>Adobe Illustrator</span><span>Adobe Photoshop</span><span>Canva</span>
+  </div>
+
+  <h4>UI / UX</h4>
+  <div class="chips">
+    <span>Wireframing</span><span>Prototyping</span><span>Website redesign</span><span>Mobile app design</span><span>Design systems</span><span>User flows</span><span>Auto layout</span><span>Components</span>
+  </div>
+
+  <h4>Web development</h4>
+  <div class="bars">
+    <div class="bar" data-v="85"><label>HTML5</label><i></i></div>
+    <div class="bar" data-v="80"><label>CSS3 / Responsive</label><i></i></div>
+    <div class="bar" data-v="70"><label>JavaScript</label><i></i></div>
+    <div class="bar" data-v="65"><label>Python &amp; Flask</label><i></i></div>
+  </div>
+  <div class="chips">
+    <span>Flexbox</span><span>Grid</span><span>Animations</span><span>DOM</span><span>Git &amp; GitHub</span><span>VS Code</span><span>Deployment</span>
+  </div>
+
+  <h4>AI &amp; machine learning (currently learning)</h4>
+  <div class="chips">
+    <span>Machine learning basics</span><span>Python for AI</span><span>AI &amp; software enthusiast</span><span>Self-learning</span>
+  </div>
+
+  <h4>Problem solving</h4>
+  <div class="chips">
+    <span>Competitive programming</span><span>Codeforces</span><span>Problem solving</span><span>Data structures</span><span>Algorithms</span><span>C</span><span>Python</span>
+  </div>
+
+  <h4>Soft skills</h4>
+  <div class="chips">
+    <span>Creativity</span><span>Attention to detail</span><span>Communication</span><span>Time management</span><span>Fast learner</span><span>Client feedback</span>
+  </div>
+</section>
+
+<section id="work" class="reveal">
+  <h3 class="title"><span>03</span> Work</h3>
+  <div class="filters">
+    <button class="f active" data-f="all">All</button>
+    <button class="f" data-f="logo">Logos</button>
+    <button class="f" data-f="poster">Posters</button>
+    <button class="f" data-f="ui">UI/UX</button>
+    <button class="f" data-f="web">Web &amp; Code</button>
+  </div>
+  <div class="grid">
+    <!-- Replace each .thumb with <img src="image/yourfile.png" alt="..."> -->
+    <article class="card" data-c="ui">
+      <div class="thumb g1">UI</div>
+      <h5>CARSOME Website Redesign</h5>
+      <p>Practice redesign of a car marketplace website in Figma.</p>
+      <a href="https://www.figma.com/design/3Izg5jQDxpW4QrTpZ7vtNc/CARSOME-Website-Redesign-Practice?node-id=26-37&p=f&t=DgzcFXf1JUMKuhPl-0" target="_blank" rel="noopener">View in Figma &rarr;</a>
+    </article>
+    <article class="card" data-c="ui">
+      <div class="thumb g2">App</div>
+      <h5>StudyStreak App Design</h5>
+      <p>Habit-tracking mobile app concept: flows, screens and prototype.</p>
+      <a href="https://www.figma.com/" target="_blank" rel="noopener">Add your link &rarr;</a>
+    </article>
+    <article class="card" data-c="logo">
+      <div class="thumb"><img src="image/mafia-zone-logo.jpg" alt="Mafia Zone esports logo" loading="lazy"></div>
+      <h5>Mafia Zone: Esports Logo</h5>
+      <p>Squad emblem with a crown, bold brush lettering and a red-black theme.</p>
+      <a href="#contact">Want a logo like this? &rarr;</a>
+    </article>
+    <article class="card" data-c="logo">
+      <div class="thumb"><img src="image/mz-logo.jpg" alt="MZ gold and blue crest logo" loading="lazy"></div>
+      <h5>MZ: Gold Crest Logo</h5>
+      <p>Monogram crest with crown, rifle and flame details in gold and royal blue.</p>
+      <a href="#contact">Want a logo like this? &rarr;</a>
+    </article>
+    <article class="card" data-c="poster">
+      <div class="thumb"><img src="image/shanto-gamer-poster.jpg" alt="Shanto Gamer poster" loading="lazy"></div>
+      <h5>Shanto Gamer: Poster</h5>
+      <p>Photo manipulation, glow effects and custom typography in a dramatic red scene.</p>
+      <a href="#contact">Order a poster &rarr;</a>
+    </article>
+    <article class="card" data-c="web">
+      <div class="thumb g1">Task</div>
+      <h5>Task Manager</h5>
+      <p>A remembrance app that helps you keep track of what to do.</p>
+      <a href="https://github.com/bshanto-02/task_manager" target="_blank" rel="noopener">See on GitHub &rarr;</a>
+    </article>
+    <article class="card" data-c="web">
+      <div class="thumb g2">$</div>
+      <h5>Expense Tracker</h5>
+      <p>Track daily spending with a clean, styled interface.</p>
+      <a href="https://github.com/bshanto-02/expense_tracker" target="_blank" rel="noopener">See on GitHub &rarr;</a>
+    </article>
+    <article class="card" data-c="web">
+      <div class="thumb g5">Pass</div>
+      <h5>Random Password Generator</h5>
+      <p>Generates strong random passwords in the browser.</p>
+      <a href="https://github.com/bshanto-02/random-password-generator" target="_blank" rel="noopener">See on GitHub &rarr;</a>
+    </article>
+    <article class="card" data-c="web">
+      <div class="thumb g6">C</div>
+      <h5>Guess the Number</h5>
+      <p>A number guessing game written in C.</p>
+      <a href="https://github.com/bshanto-02/Guess_the_number" target="_blank" rel="noopener">See on GitHub &rarr;</a>
+    </article>
+    <article class="card" data-c="web">
+      <div class="thumb g3">CV</div>
+      <h5>My CV Website</h5>
+      <p>My resume built as a web page with HTML.</p>
+      <a href="https://github.com/bshanto-02/My_CV" target="_blank" rel="noopener">See on GitHub &rarr;</a>
+    </article>
+  </div>
+</section>
+
+<section id="journey" class="reveal">
+  <h3 class="title"><span>04</span> Journey</h3>
+  <ul class="timeline">
+    <li><b>Computer Science student</b><span>Aiming to become an AI engineer, learning Python and machine learning</span></li>
+    <li><b>Flyranks AI Internship</b><span>Coding and UX/UI design tracks</span></li>
+    <li><b>DecodeLabs, Batch 2026</b><span>Python Flask web application training</span></li>
+    <li><b>Competitive programming</b><span>36 problems solved on Codeforces</span></li>
+    <li><b>Graphic design</b><span>Logo making and brand design</span></li>
+  </ul>
+</section>
+
+<section id="contact" class="reveal">
+  <h3 class="title"><span>05</span> Contact</h3>
+  <p class="lead">Have a logo, a design, or a website in mind? Or hiring? Send me a message.</p>
+  <form id="form" class="form">
+    <input id="n" placeholder="Your name" required>
+    <input id="e" type="email" placeholder="Your email" required>
+    <textarea id="m" rows="5" placeholder="Tell me about your project or role" required></textarea>
+    <button class="btn" type="submit">Send via email</button>
+  </form>
+  <div class="links">
+    <a href="mailto:bshanto567@gmail.com">Email</a>
+    <a href="https://github.com/bshanto-02" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/shamiul-islam-shanto-034930230/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://codeforces.com/profile/Shanto_064" target="_blank" rel="noopener">Codeforces</a>
+    <a href="https://www.figma.com/design/3Izg5jQDxpW4QrTpZ7vtNc/CARSOME-Website-Redesign-Practice?node-id=26-37&p=f&t=DgzcFXf1JUMKuhPl-0" target="_blank" rel="noopener">Figma</a>
+  </div>
+</section>
+</main>
+
+<footer>&copy; <span id="yr"></span> Shamiul Islam Shanto. Designed &amp; coded by me.</footer>
+<div id="lb" class="lb"><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
