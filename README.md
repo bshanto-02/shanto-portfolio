@@ -4,7 +4,7 @@ A dark and futuristic personal portfolio for a Computer Science student, aspirin
 
 ## 🔗 View my portfolio: https://bshanto-02.github.io/shanto-portfolio/
 
-[![Open Portfolio](https://img.shields.io/badge/Open-My%20Portfolio-00e5ff?style=for-the-badge)](https://bshanto-02.github.io/shanto-portfolio/)
+[![Open Portfolio](file:///D:/shanto-portfolio/index.html)
 
 ## Features
 
