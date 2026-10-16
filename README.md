@@ -2,7 +2,7 @@
 
 A dark and futuristic personal portfolio for a Computer Science student, aspiring AI engineer, graphic designer and logo maker. Built with plain **HTML, CSS and JavaScript**, with no frameworks and no build step.
 
-## 🔗 View my portfolio: https://bshanto-02.github.io/shanto-portfolio/
+## 🔗 View my portfolio: file:///D:/shanto-portfolio/index.html
 
 [![Open Portfolio](file:///D:/shanto-portfolio/index.html)
 
