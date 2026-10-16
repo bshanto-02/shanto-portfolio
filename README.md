@@ -1,80 +1,102 @@
-# Shamiul Islam Shanto | Portfolio Website
+# 🚀 Shanto Portfolio
 
-A dark and futuristic personal portfolio for a Computer Science student, aspiring AI engineer, graphic designer and logo maker. Built with plain **HTML, CSS and JavaScript**, with no frameworks and no build step.
+Welcome to my personal developer portfolio! This project showcases my skills, projects, and journey as a programmer through a modern, dark, and futuristic web design.
 
-## 🔗 View my portfolio: file:///D:/shanto-portfolio/index.html
+## 🌐 Live Demo
 
-[![Open Portfolio](file:///D:/shanto-portfolio/index.html)
+- **GitHub Repository:** https://github.com/bshanto-02/shanto-portfolio
+- **Live Portfolio:** Add your deployed website URL here.
 
-## Features
+## 👨‍💻 About Me
 
-- Dark neon design with an animated particle background
-- Typing intro, animated skill bars and count-up stats
-- Detailed skills: graphic design, logo making, UI/UX, web development, AI/ML (learning), problem solving
-- Work gallery with filters (Logos, Posters, UI/UX, Web & Code) and click-to-enlarge images
-- Journey timeline and a contact form that opens your email app
-- Fully responsive, with a mobile menu
-- Links to GitHub, LinkedIn, Codeforces and Figma
+Hi, I'm **Shamiul Islam Shanto**, a passionate programmer interested in web development, problem-solving, and building creative digital experiences.
 
-## Project structure
+I created this portfolio to introduce myself, showcase my work, and share my programming journey with the developer community.
 
-```
+## ✨ Features
+
+- 🌌 Modern dark and futuristic design
+- 📱 Responsive layout for desktop, tablet, and mobile
+- 👨‍💻 Personal introduction and developer profile
+- 🛠️ Skills and technology showcase
+- 🚀 Project portfolio section
+- 🔗 GitHub and Codeforces profile links
+- 📬 Contact section
+- ⚡ Smooth interactions and animations
+
+## 🛠️ Technologies Used
+
+- **HTML5** — Website structure
+- **CSS3** — Styling, layouts, animations, and responsiveness
+- **JavaScript** — Interactive features
+- **Git & GitHub** — Version control and project hosting
+
+## 📂 Project Structure
+
+```text
 shanto-portfolio/
-├── index.html     # page content
-├── style.css      # design, colors, layout, responsive rules
-├── script.js      # animations, filters, menu, contact form
-├── images/
-│   ├── profile.jpg
-│   ├── mafia-zone-logo.jpg
-│   ├── mz-logo.jpg
-│   └── shanto-gamer-poster.jpg
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images/
 └── README.md
 ```
 
-## Run it on your computer
+*Note: Update this structure if your actual filenames or folders are different.*
 
-1. Download and unzip the project.
-2. Double-click `index.html` to open it in your browser.
-3. For live reload while editing, open the folder in VS Code and use the **Live Server** extension.
+## 💻 Run Locally
 
-## How to customize
+Follow these steps to run the portfolio on your computer.
 
-| What | Where |
-| --- | --- |
-| Profile photo | Replace `images/profile.jpg` |
-| Name, intro text, About | `index.html` (Hero and About sections) |
-| Skills and chips | `index.html` (Skills section) |
-| Skill bar levels | `data-v="85"` on each `.bar` |
-| Stats numbers | `data-count="..."` in the About section |
-| Add a work item | Copy a `<article class="card">` block in the Work section |
-| Colors | `--a` and `--b` at the top of `style.css` |
-| Typing words | `words` list at the top of `script.js` |
+1. Clone the repository:
 
-To add your own logo or design, put the image in `images/` and use:
+   ```bash
+   git clone https://github.com/bshanto-02/shanto-portfolio.git
+   ```
 
-```html
-<div class="thumb"><img src="images/your-file.jpg" alt="Describe the image"></div>
-```
+2. Open the project folder:
 
-## Deploy on GitHub Pages (free)
+   ```bash
+   cd shanto-portfolio
+   ```
 
-1. Create a **public** repository on GitHub named `shanto-portfolio`.
-2. Upload `index.html`, `style.css`, `script.js`, the `images` folder and `README.md`.
-3. Go to **Settings → Pages**, choose branch `main` and folder `/ (root)`, then **Save**.
-4. After about a minute, the site is live at `https://bshanto-02.github.io/shanto-portfolio/`.
+3. Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
 
-To update the site later, edit or re-upload a file on GitHub and commit. It refreshes by itself.
+## 🚀 Deployment
 
-**Other free options:** drag the folder onto [Netlify Drop](https://app.netlify.com/drop), or deploy with Vercel.
+This website can be hosted for free using GitHub Pages.
 
-## Contact
+1. Open the repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Select the `main` branch and `/ (root)` folder.
+5. Click **Save**.
 
-- Email: bshanto567@gmail.com
-- GitHub: https://github.com/bshanto-02
-- LinkedIn: https://www.linkedin.com/in/shamiul-islam-shanto-034930230/
-- Codeforces: https://codeforces.com/profile/Shanto_064
-- Figma: https://www.figma.com/design/3Izg5jQDxpW4QrTpZ7vtNc/CARSOME-Website-Redesign-Practice
+After deployment, your website will be available at:
 
-## License
+`https://bshanto-02.github.io/shanto-portfolio/`
 
-All designs, logos, photos and content belong to Shamiul Islam Shanto. Please do not reuse them without permission.
+Make sure `index.html` is in the selected publishing folder.
+
+## 🔗 Connect With Me
+
+- **GitHub:** https://github.com/bshanto-02
+- **Codeforces:** https://codeforces.com/profile/Shanto_064
+
+## 🎯 Project Goals
+
+- Build my personal developer brand.
+- Showcase my projects and programming skills.
+- Practice frontend development.
+- Share my work with the developer community.
+
+## 📄 License
+
+This project is intended for personal portfolio use. Add a license file if you want to specify permissions for reuse and distribution.
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
+
+**Built with ❤️ by Shamiul Islam Shanto**
