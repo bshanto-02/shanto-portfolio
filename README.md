@@ -5,8 +5,7 @@ Welcome to my personal developer portfolio! This project showcases my skills, pr
 ## 🌐 Live Demo
 
 - **GitHub Repository:** https://github.com/bshanto-02/shanto-portfolio
-- **Live Portfolio:** Add your deployed website URL here.
-
+- **Live Portfolio:**(https://bshanto-02.github.io/shanto-portfolio/)
 ## 👨‍💻 About Me
 
 Hi, I'm **Shamiul Islam Shanto**, a passionate programmer interested in web development, problem-solving, and building creative digital experiences.
